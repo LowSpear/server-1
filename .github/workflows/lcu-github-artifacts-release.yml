@@ -14,7 +14,7 @@ env:
   MainBranch: master
   NPMRegistry: https://registry.npmjs.org/
   InstallCommand: npm i
-  BuildCommand: npm run build
+  BuildCommand: # install dependencies make dev-setup  # build for development make build-js  # build for development and watch edits make watch-js  # build for production with minification make build-js-production
   Output: ./public
 
 jobs:
